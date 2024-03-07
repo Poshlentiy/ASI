@@ -7,13 +7,13 @@ make all
 ## Запуск сервера/клиента
 Сервер
 ```console
-    cd build
-    ./server [PORT] [ДИРЕКТОРИЯ] [MAX_CLIENTS] [MAX_FILE_SIZE]
+cd build
+./server [PORT] [ДИРЕКТОРИЯ] [MAX_CLIENTS] [MAX_FILE_SIZE]
 ```
 Клиент
 ```console
-    cd build
-   ./client [IP] [SERVER PORT] [FILENAME]
+cd build
+./client [IP] [SERVER PORT] [FILENAME]
 ```
 ## Удаление сборки
 ```console
