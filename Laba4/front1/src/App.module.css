@@ -1,0 +1,33 @@
+.container {
+    background-color: #EEEEEE;
+    color: rgb(0, 0, 0);
+    min-height: 100%;
+}
+
+.buttons {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    background-color: rgb(30, 30, 30);
+}
+
+.buttons button{
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.buttons button:hover {
+    
+}   
+
+.page {
+    padding: 20px 200px;
+    display: flex;
+    flex-direction: column;
+}
